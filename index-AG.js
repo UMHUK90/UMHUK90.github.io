@@ -8,6 +8,4 @@ function changeVisibility() {
         activeLink.style.setProperty("--lock-icon-visibility", "hidden");
   }
 }
-window.setTimeout(() => {
-  changeVisibility();
-}, 20000);
+changeVisibility();
